@@ -93,7 +93,7 @@ button:hover {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 720px) {
 
     form {
         width: 100%;
