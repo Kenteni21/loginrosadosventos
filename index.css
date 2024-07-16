@@ -94,6 +94,12 @@ button:hover {
 
 /* Media query for mobile devices */
 @media (max-width: 600px) {
+
+    form {
+        width: 100%;
+        padding: 30px; /* Aumentando o padding para dar mais espaço interno */
+        max-width: 90%; /* Reduzindo um pouco a largura máxima para evitar que ocupe toda a largura da tela */
+    }
     body {
         padding: 10px;
     }
@@ -111,9 +117,9 @@ button:hover {
         padding: 15px;
     }
     textarea {
-        height: 80px;
+        height: 120px;
     }
     button {
-        font-size: 14px;
+        font-size: 16px; 
     }
 }
